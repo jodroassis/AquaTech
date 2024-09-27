@@ -124,3 +124,68 @@ body{
 .version {
     font-size: 12px;
 }
+
+.box h4{
+    color: #EC155B;
+}
+
+.login {
+    display: flex;
+    height: var(--tamanho-banner);
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.login .container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #e5e5e5;
+    color: #EC155B;
+    border-radius: 15px;
+    padding: 0px 20px 20px 20px;
+    width: 40%;
+    font-weight: 800;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card h2{
+    font-size: 40px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    width:550px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #32b9cd;
+    font-size: 15px;
+    text-align: center;
+}
+
+.botao {
+    display: flex;
+    background-color: #EC155B;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 25px;
+}
